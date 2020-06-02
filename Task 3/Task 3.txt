@@ -1,0 +1,22 @@
+Eksamen oppgave 3
+
+Random string of 10 letters =”wekzarloui”;
+
+The first thing int goes in to is .toCharArray() tat makes the sting in to a char array, named chars
+Then it goes into a for loop were “i” need to be gigger then the length of the string.
+Then an if statement that checks it the char array on position “i”, and sees if it is matches with earlyLetter array {a,b,c,d} and if it does, it posts "early letter found" and goes to the next character in the string.
+If its not a part of the earlyLetter, it goes in to another if statement but with lateLetter array {w,x,y,z} instead, and if it is correct it runs a RuntimeException and “posts this is a ” and the character. 
+Else it posts “found” and the character. {e,f,g,h,I,j,k,l,m,n,o,p,q,r,s,t,u,v}
+
+
+It will post on my string. 
+this is a w
+founde
+foundk
+this is a z
+early letter found
+foundr
+foundl
+foundo
+foundu
+foundi
